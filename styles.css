@@ -1,0 +1,175 @@
+body{
+    font-family: "montserrat";
+}
+
+
+#title{
+    background-color:#ff4c68;
+    
+}
+h1{ 
+    font-family:"Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+    color:white;
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
+#imageRotate{
+    transform:rotate(20deg) ;
+    width:230px;
+    position:absolute;
+    
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: white;
+    font-family:"ubuntu";
+    font-size:1.5rem;
+}
+
+.navbar{
+    padding: 0 0 2.5rem;
+}
+.nav-item{
+    margin: auto 16px;
+}
+.nav-link{
+    font-weight:bold;
+    color:aliceblue;
+}
+.downloadbtn{
+    margin: 5% 3% 5% 0;
+}
+
+.secondPart{
+    padding-top: 10%;
+}
+
+.sitem{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-family:"Montserrat-Bold";
+    font-weight:bold;
+}
+
+p{
+    color:grey;
+}
+
+.icon{
+    color: #f08c6e;
+    margin-bottom: 5%;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color:#ff4c68;
+    color: white;
+    
+    
+}
+
+.testiamge{
+    border-radius: 100%;
+    margin: 20px; 
+    width: 70px;
+    height: 70px;
+}
+
+
+h2{
+    
+    font-family: "Montserrat-Bold";
+    font-size:2rem;
+    line-height: 2rem;
+    
+    
+}
+
+#press{
+    background-color:#ff4c68;
+    text-align: center;
+    padding: 40px;
+}
+
+.press-logo{
+    width:15%;
+    margin: 10px 10px 40px;
+}
+
+.carousel-item{
+    padding:7% 5%;
+}
+.carousel-control-prev{
+    padding-right: 100px;
+}
+.carousel-control-next{
+    padding-left: 100px;
+}
+
+#pricing{
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    padding-top:5%;
+}
+
+.namino{
+    padding-top: 5%;
+}
+
+#features{
+    background-color:white;
+    position: relative;
+}
+
+@media (max-width:992px) {
+    
+    #title{
+        text-align:center;
+    }
+
+    #imageRotate{
+        width:230px;
+        position: static;
+        transform: rotate(0);
+        
+        
+    }
+    
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    font-family: "montserrat-bold";
+    color:white;
+    padding: 7% 5%;
+   
+}
+
+.randdom{
+    margin: 50px;
+    font-size:30px;
+}
+
+.bitton{
+    margin:auto 10px;
+}
+
+#footer{
+    padding:8%;
+    text-align: center;
+}
+.goku{
+    margin:auto 10px;
+}
